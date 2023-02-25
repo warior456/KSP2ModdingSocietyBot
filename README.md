@@ -1,5 +1,6 @@
-# mrdia-main
-This is a music bot using youtube with /command and messagecommand support <br>
+# KSP2ModdingSocietyBot
+
+
 
 How to use: <br>
 1: download this repository <br>
@@ -11,7 +12,7 @@ PREFIX = your prefix here
 OWNER = your discord id here
 DISCORD_TOKEN = your bot token here
 INVITE = your bot invite here
-DBTOKEN = your mongoDb token here
+REQUEST_CHANNEL = "channelid"
 ```
 5: run node . to start the bot
 
