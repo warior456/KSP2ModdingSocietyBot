@@ -50,8 +50,7 @@ function cmdOptions(cmd) {
 	if (!cmd.options[0].choices) {
 		for (let index = 0; index < cmd.options.length; index++) {
 			//returns the type of answer if it's not with choices
-			cmdOptionFormatted.push(cmdOptionTypeToString(cmd.options[index]));
-			console.log(cmd.options[index])
+			cmdOptionFormatted.push(cmdOptionTypeToString(cmd.options[index].type));
 		}
 		return cmdOptionFormatted;
 	}
@@ -65,7 +64,7 @@ function cmdOptions(cmd) {
 	return cmdOptionFormatted;
 }
 
-function cmdOptionTypeToString() {
+function cmdOptionTypeToString(arg) {
 	switch (arg) {
 		case ApplicationCommandOptionType.Attachment:
 			return "attachment";
