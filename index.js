@@ -26,7 +26,7 @@
 			GatewayIntentBits.DirectMessages,
 			GatewayIntentBits.MessageContent,
 			GatewayIntentBits.DirectMessageReactions,
-			//GatewayIntentBits.GuildMembers,
+			GatewayIntentBits.GuildMembers,
 			GatewayIntentBits.GuildMessageReactions,
 			GatewayIntentBits.GuildWebhooks,
 			GatewayIntentBits.GuildVoiceStates,
